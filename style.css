@@ -1,6 +1,11 @@
 :root {
     --red: #f72210;
     --yellow: #ffe400;
+    --body-background: #f4f5f6;
+}
+
+body {
+    background-color: var(--body-background);
 }
 
 img {
@@ -94,9 +99,31 @@ img {
         margin-bottom: 20px;
     }
 
-    .row h4 {
-        font-size: 19px;
-        font-family: sans-serif;
-        font-weight: 700;
+    .nav-2 {
+        height: 50px;
+        padding: 10px 0 10px 0;
+        background-color: #fff;
+        flex-flow: row wrap;
+        text-align: center;
     }
+
+    .nav-2 > h4 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+
+    .search > h6 {
+        color:  rgba(0,0,0,.55);
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .search  > .fa-search {
+        color: red;
+        display: inline;
+        padding: 0;
+        margin: 0;
+    }
+
 }
