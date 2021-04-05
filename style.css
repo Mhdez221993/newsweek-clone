@@ -93,4 +93,10 @@ img {
     .mobile-right {
         margin-bottom: 20px;
     }
+
+    .row h4 {
+        font-size: 19px;
+        font-family: sans-serif;
+        font-weight: 700;
+    }
 }
