@@ -4,8 +4,17 @@
     --body-background: #f4f5f6;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 body {
     background-color: var(--body-background);
+}
+
+main {
+    height: 200px;
 }
 
 img {
@@ -45,6 +54,24 @@ img {
 .top-nav {
     background-color: var(--red);
     height: 50px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #fff;
+}
+
+.brand-footer {
+    width: 230px;
+    height: 100px;
+}
+
+.social-icons > i.fa {
+    margin-right: 20px;
+    font-size: 25px;
+    color: #555;
+    opacity: 0.9;
 }
 
 @media (min-width: 768px) {
@@ -125,6 +152,11 @@ img {
         display: inline;
         padding: 0;
         margin: 0;
+    }
+
+    footer {
+        width: 1300px;
+        margin: 0 auto;
     }
 
 }
