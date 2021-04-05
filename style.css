@@ -62,6 +62,39 @@ footer {
     background-color: #fff;
 }
 
+footer a {
+    text-decoration: none;
+    color: grey;
+}
+
+footer a:hover {
+    color: black;
+    height: 3px;
+}
+
+.news-icons {
+    position: relative;
+    top: 35px;
+}
+
+.news-copyright {
+    position: relative;
+    top: 47px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.news-footer > div {
+    position: relative;
+    top: 25px;
+}
+
+.news-footer > div > img {
+    position: relative;
+    bottom: 25px;
+}
+
 .brand-footer {
     width: 230px;
     height: 100px;
