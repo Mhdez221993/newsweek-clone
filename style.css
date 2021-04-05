@@ -69,9 +69,12 @@ img {
 @media (min-width: 992px) {
     .top-nav {
         height: 120px;
+        
+    }
+
+    header.row {
         max-width: 1300px;
         margin: 0 auto;
-        
     }
 
     .brand {
