@@ -1,3 +1,8 @@
-.subscribe-btn {
-  float: right;
+img {
+    width: 100%;
+}
+
+nav {
+    height: 50px;
+    background-color: rebeccapurple;
 }
