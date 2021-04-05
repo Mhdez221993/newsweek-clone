@@ -77,14 +77,6 @@ footer a:hover {
     top: 35px;
 }
 
-.news-copyright {
-    position: relative;
-    top: 47px;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: grey;
-}
-
 .news-footer > div {
     position: relative;
     top: 25px;
@@ -97,7 +89,15 @@ footer a:hover {
 
 .brand-footer {
     width: 230px;
-    height: 100px;
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+.copyright {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #666;
+    margin-left: 20px;
 }
 
 .social-icons > i.fa {
@@ -105,6 +105,10 @@ footer a:hover {
     font-size: 25px;
     color: #555;
     opacity: 0.9;
+}
+
+.social-icons {
+    margin-top: 10px;
 }
 
 @media (min-width: 768px) {
@@ -127,6 +131,11 @@ footer a:hover {
     
     .humberger.fa-bars {
         font-size: 30px;
+    }
+
+    .copyright {
+        height: 10px;
+        margin-top: 20px;
     }
 
 }
@@ -188,8 +197,8 @@ footer a:hover {
     }
 
     footer {
-        width: 1300px;
         margin: 0 auto;
+        max-width: 1300px;
     }
 
 }
