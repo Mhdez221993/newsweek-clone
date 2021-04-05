@@ -14,7 +14,8 @@ body {
 }
 
 main {
-  height: 200px;
+  flex: 1;
+  height: 40vh;
 }
 
 img {
