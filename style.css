@@ -224,6 +224,8 @@ footer a:hover {
   .fa-search {
     top: 5px;
     left: 80px;
+    color: #555;
+    opacity: 0.7;
   }
 
   footer {
