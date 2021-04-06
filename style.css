@@ -190,6 +190,11 @@ footer a:hover {
   font-weight: 800;
 }
 
+.parler-border {
+  border-bottom: 5px solid #d0cfd4 !important;
+  padding-bottom: 2rem;
+}
+
 .parler-border:nth-child(2) {
   position: relative;
   top: 2rem;
@@ -203,11 +208,6 @@ footer a:hover {
 
 .vs-text {
   height: 0.1rem;
-}
-
-.parler-border {
-  border-bottom: 5px solid #d0cfd4 !important;
-  padding-bottom: 2rem
 }
 
 .vs-text span {
