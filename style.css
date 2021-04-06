@@ -13,6 +13,8 @@ body {
 
 main {
   background-color: #fff;
+  flex: 1;
+  height: 40vh;
 }
 
 a {
@@ -22,11 +24,6 @@ a {
 
 body {
   background-color: var(--body-background);
-}
-
-main {
-  flex: 1;
-  height: 40vh;
 }
 
 img {
@@ -78,10 +75,20 @@ img {
   margin-right: 15px;
 }
 
+footer a {
+  text-decoration: none;
+  color: grey;
+}
+
 .media > h5 > a {
   font-family: sans-serif;
   font-size: 17px;
   font-weight: 800;
+}
+
+footer a:hover {
+  color: var(--black);
+  height: 3px;
 }
 
 .media > h5 > a:hover {
@@ -162,20 +169,11 @@ img {
   font-family: sans-serif;
   font-weight: 800;
 }
+
 /* Footer */
 
 footer {
   background-color: #fff;
-}
-
-footer a {
-  text-decoration: none;
-  color: grey;
-}
-
-footer a:hover {
-  color: var(--black);
-  height: 3px;
 }
 
 .news-icons {
@@ -236,6 +234,8 @@ footer a:hover {
 .card-body {
   padding: 0;
   border: 0;
+  position: relative;
+  bottom: 1.5rem;
 }
 
 .card-photo-tag {
@@ -265,11 +265,6 @@ footer a:hover {
   opacity: 0.9;
   padding: 3px 10px;
   font-size: 1.1rem;
-}
-
-.card-body {
-  position: relative;
-  bottom: 1.5rem;
 }
 
 @media (min-width: 768px) {
