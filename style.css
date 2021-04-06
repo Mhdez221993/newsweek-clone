@@ -154,7 +154,7 @@ footer a:hover {
   }
 
   .header-form {
-    width: 60px;
+    width: 100px;
   }
 
   .copyright {
@@ -221,10 +221,9 @@ footer a:hover {
     color: rgba(0, 0, 0, 0.5);
   }
 
-  .search > .fa-search {
-    display: inline;
-    padding: 0;
-    margin: 0;
+  .fa-search {
+    top: 5px;
+    left: 80px;
   }
 
   footer {
