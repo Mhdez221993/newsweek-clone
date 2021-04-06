@@ -107,9 +107,10 @@ img {
 /* Debate section */
 
 .img-debate {
-  width: 50px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   float: left;
+  margin-right: 10px;
 }
 
 .debate > h3 {
