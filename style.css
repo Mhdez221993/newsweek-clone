@@ -27,6 +27,7 @@ main {
 
 img {
   width: 100%;
+  min-width: 120px;
 }
 
 .brand {
@@ -150,6 +151,10 @@ footer a:hover {
 
   .humberger.fa-bars {
     font-size: 30px;
+  }
+
+  .header-form {
+    width: 60px;
   }
 
   .copyright {
