@@ -126,8 +126,8 @@ footer a:hover {
 
 .media > span {
   color: #555;
-  font-size: 11px;
-  font-family: sans-serif;
+  font-size: 14px;
+  font-family: 'Roboto Condensed', sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -168,6 +168,31 @@ footer a:hover {
   color: #000;
   font-family: sans-serif;
   font-weight: 800;
+}
+
+.parler-border:nth-child(2) {
+  position: relative;
+  top: 2rem;
+}
+
+.debate-font h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.vs-text {
+  height: 0.1rem;
+}
+
+.parler-border {
+  border-bottom: 5px solid #d0cfd4 !important;
+  padding-bottom: 2rem
+}
+
+.vs-text span {
+  position: relative;
+  bottom: 0.8rem;
 }
 
 /* Footer */
