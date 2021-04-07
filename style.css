@@ -286,7 +286,7 @@ footer a:hover {
 
 .h2-header {
   font-size: 19px;
-  font-family: sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
   line-height: 28px;
 }
@@ -346,10 +346,6 @@ footer a:hover {
 .last-input {
   float: left;
   width: 50%;
-}
-
-.h2-header {
-  font-family: 'Roboto Condensed', sans-serif;
 }
 
 @media (min-width: 768px) {
