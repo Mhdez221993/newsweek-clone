@@ -308,6 +308,18 @@ footer a:hover {
   color: #f72210;
 }
 
+.h3-header {
+  font-size: 22px;
+  color: #f72210;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.img-media.img-us {
+  height: 250px;
+  width: 200px;
+}
+
 @media (min-width: 768px) {
   .last-nav a {
     border-right: 1px solid #eee;
@@ -336,6 +348,11 @@ footer a:hover {
     position: relative;
     left: 5px;
     top: 25px;
+  }
+
+  .img-media.img-us {
+    height: 100px;
+    width: 100px;
   }
 }
 
@@ -416,5 +433,10 @@ footer a:hover {
   footer {
     max-width: 1300px;
     margin: 0 auto;
+  }
+
+  .img-media.img-us {
+    height: 140px;
+    width: 140px;
   }
 }
