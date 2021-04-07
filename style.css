@@ -6,16 +6,15 @@
   --white: #fff;
 }
 
-html,
-body {
+html, body {
   overflow-x: hidden;
 }
 
-main {
+/* main {
   background-color: #fff;
   flex: 1;
   height: 40vh;
-}
+} */
 
 a {
   text-decoration: none;
@@ -35,9 +34,7 @@ img {
 }
 
 .user.fa-user {
-  padding: 10px 20px;
   font-size: 20px;
-  color: #fff;
   opacity: 0.7;
 }
 
@@ -46,9 +43,8 @@ img {
   font-size: 13px;
   font-family: sans-serif;
   border-radius: 24px;
-  padding: 3px 10px;
   font-weight: 900;
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .humberger.fa-bars {
@@ -217,10 +213,6 @@ footer a:hover {
 
 /* Footer */
 
-footer {
-  background-color: #fff;
-}
-
 .news-icons {
   position: relative;
   top: 35px;
@@ -258,10 +250,6 @@ footer {
 .social-icons > a > i.fa:hover {
   color: blue;
   opacity: 0.8;
-}
-
-.social-icons {
-  margin-top: 10px;
 }
 
 .last-nav {
@@ -312,20 +300,15 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .user.fa-user {
-    display: none;
-  }
 
   .last-nav a {
     border-right: 1px solid #eee;
   }
 
   .mobile-right > h2 > a {
-    color: #fff;
     font-size: 18px;
     font-family: sans-serif;
     font-weight: 900;
-    margin: 0 20px 0 20px;
   }
 
   .btn-warning {
