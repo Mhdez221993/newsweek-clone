@@ -306,13 +306,13 @@ footer a:hover {
 .h3-header {
   font-size: 22px;
   color: #f72210;
-  font-family: sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: bolder;
 }
 
 .img-media.img-us {
   height: 250px;
-  width: 200px;
+  width: 250px;
 }
 
 .img-subscribe {
@@ -346,6 +346,10 @@ footer a:hover {
 .last-input {
   float: left;
   width: 50%;
+}
+
+.h2-header {
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 @media (min-width: 768px) {
