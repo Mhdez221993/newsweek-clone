@@ -347,6 +347,10 @@ footer a:hover {
   padding: 3px;
 }
 
+.h-link {
+  transition: color 1s;
+}
+
 img, .sub-btn-trans {
   position: relative;
   transition: width 2s, height 2s, transform 1s;
