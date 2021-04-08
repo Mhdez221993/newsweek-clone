@@ -347,6 +347,25 @@ footer a:hover {
   padding: 3px;
 }
 
+img, .sub-btn-trans {
+  position: relative;
+  transition: width 2s, height 2s, transform 1s;
+}
+
+img:hover, .sub-btn-trans:hover {
+  transform: scale(1.1);
+}
+
+.logo-trans {
+  position: relative;
+  animation: logomove 5s 1;
+}
+
+@keyframes logomove {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
 .last-input {
   float: left;
   width: 50%;
