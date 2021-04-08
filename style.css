@@ -73,6 +73,10 @@ footer a {
   font-size: 14px;
 }
 
+.news-sub-header {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 .more-stories h4 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 17px;
