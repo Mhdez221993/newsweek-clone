@@ -209,6 +209,17 @@ footer a:hover {
   top: 25px;
 }
 
+img,
+.sub-btn-trans {
+  position: relative;
+  transition: width 2s, height 2s, transform 1s;
+}
+
+img:hover,
+.sub-btn-trans:hover {
+  transform: scale(1.1);
+}
+
 .news-footer > div > img {
   position: relative;
   bottom: 25px;
@@ -351,23 +362,14 @@ footer a:hover {
   transition: color 1s;
 }
 
-img, .sub-btn-trans {
-  position: relative;
-  transition: width 2s, height 2s, transform 1s;
-}
-
-img:hover, .sub-btn-trans:hover {
-  transform: scale(1.1);
-}
-
 .logo-trans {
   position: relative;
   animation: logomove 5s 1;
 }
 
 @keyframes logomove {
-  from {transform: rotate(0deg);}
-  to {transform: rotate(360deg);}
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 .last-input {
