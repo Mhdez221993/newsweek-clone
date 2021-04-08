@@ -173,7 +173,7 @@ footer a:hover {
 }
 
 .parler-border {
-  border-bottom: 5px solid #d0cfd4 !important;
+  border-bottom: 5px solid #d0cfd4;
   padding-bottom: 2rem;
 }
 
