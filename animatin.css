@@ -1,0 +1,79 @@
+/* ANIMATIN HUMBERGER */
+
+.humberger-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.humberger-btn__burger {
+  background-color: #fff;
+  opacity: 0.7;
+  height: 2px;
+  width: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+}
+
+.humberger-btn__burger::before,
+.humberger-btn__burger::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  opacity: 0.7;
+  height: 2px;
+  width: 20px;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+}
+
+.humberger-btn__burger::before {
+  transform: translateY(-7px);
+}
+
+.humberger-btn__burger::after {
+  transform: translateY(7px);
+}
+
+.humberger-btn.open .humberger-btn__burger {
+  transform: translateX(-50px);
+  background: transparent;
+  box-shadow: none;
+}
+
+.humberger-btn.open .humberger-btn__burger::before {
+  transform: rotate(45deg) translate(35px, -35px);
+}
+
+.humberger-btn.open .humberger-btn__burger::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+}
+
+@media (min-width: 500px) {
+  .humberger-btn__burger {
+    height: 3px;
+    width: 25px;
+  }
+
+  .humberger-btn__burger::before,
+  .humberger-btn__burger::after {
+    height: 3px;
+    width: 25px;
+  }
+
+  .humberger-btn__burger::before {
+    transform: translateY(-8px);
+  }
+
+  .humberger-btn__burger::after {
+    transform: translateY(8px);
+  }
+}
