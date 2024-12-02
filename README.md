@@ -6,15 +6,45 @@
 
 ![screenshot](img/project-srcn-shot.jpg)
 
+## Live Demo
+
+[Visit the Live Demo](https://mhdez221993.github.io/newsweek-clone/)
+
 ## Built With
 
 - HTML5
 - CSS3
 - Bootstrap
+- Node Version 14.14
 
-## Live Demo
+## Using Stylelint
 
-[Visit the Live Demo](https://mhdez221993.github.io/newsweek-clone/)
+This project uses **Stylelint** for CSS linting to maintain code quality and consistency.
+
+### .stylelintrc Configuration
+
+The `.stylelintrc` file is already included in the repository. It contains the configuration for Stylelint.
+
+### How to Use Stylelint
+
+1. Ensure you have Node.js installed on your machine.
+2. Install Stylelint and its necessary plugins by running:
+
+   ```bash
+   npm install stylelint stylelint-config-recommended --save-dev
+   ```
+
+3. To lint your CSS files, run:
+
+   ```bash
+   npx stylelint "**/*.css"
+   ```
+
+4. Fix any auto-fixable issues by running:
+
+   ```bash
+   npx stylelint "**/*.css" --fix
+   ```
 
 ## Authors
 
@@ -27,8 +57,7 @@
 👤 **Moises Hernandez**
 
 - [GitHub](https://github.com/Mhdez221993)
-- [Twitter](https://twitter.com/MoisesH42060050)
-- [LinkedIn](https://www.linkedin.com/in/moises-hernandez-9bbb17145/)
+- [LinkedIn](https://www.linkedin.com/in/moises-hdez-coronado/)
 
 ## 🤝 Contributing
 
