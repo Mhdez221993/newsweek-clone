@@ -4,7 +4,7 @@
 > The initial build of this project contains the header and the footer sections
 > The main goal of this project is to learn how to use the Bootstrap framework, specifically its responsive design features
 
-![screenshot](img/project-srcn-shot.jpg)
+![screenshot](img/newsweek-screenshot.png)
 
 ## Live Demo
 
