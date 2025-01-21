@@ -10,10 +10,10 @@ jobs:
     name: Lighthouse
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: "12.x"
+          node-version: "14.x"
       - name: Setup Lighthouse
         run: npm install -g @lhci/cli@0.4.x
       - name: Lighthouse Report
@@ -22,10 +22,10 @@ jobs:
     name: Webhint
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: "12.x"
+          node-version: "14.x"
       - name: Setup Webhint
         run: |
           npm install --save-dev hint@6.0.x
@@ -36,10 +36,10 @@ jobs:
     name: Stylelint
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: "12.x"
+          node-version: "14.x"
       - name: Setup Stylelint
         run: |
           npm install --save-dev stylelint@13.3.x stylelint-scss@3.17.x stylelint-config-standard@20.0.x stylelint-csstree-validator
