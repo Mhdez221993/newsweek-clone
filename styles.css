@@ -1,79 +1,511 @@
-/* ANIMATIN HUMBERGER */
+html,
+body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
 
-.humberger-btn {
+:root {
+  --red: #f72210;
+  --yellow: #ffe400;
+  --body-background: #f4f5f6;
+  --black: #000;
+  --white: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+body {
+  background-color: var(--body-background);
+}
+
+img {
+  width: 100%;
+}
+
+.brand {
+  width: 170px;
+}
+
+.user.fa-user {
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.btn-warning {
+  background-color: var(--yellow);
+  font-size: 13px;
+  font-family: sans-serif;
+  border-radius: 24px;
+  font-weight: 900;
+}
+
+.humberger.fa-bars {
+  color: #fff;
+  opacity: 0.7;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.top-nav {
+  background-color: var(--red);
+  height: 50px;
+}
+
+/* More Stories */
+
+.img-media {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 15px;
+}
+
+footer a {
+  text-decoration: none;
+  color: grey;
+  font-size: 14px;
+}
+
+.lowest-font .mb-4 {
+  font-size: 14px;
+}
+
+.news-sub-header {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.more-stories h4 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 17px;
+}
+
+.more-stories p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+footer .px-2 {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  transition: all 0.5s ease-in-out;
+  top: 2px;
 }
 
-.humberger-btn__burger {
-  background-color: #fff;
-  opacity: 0.7;
-  height: 2px;
-  width: 20px;
-  cursor: pointer;
-  border-radius: 10px;
-  transition: all 0.5s ease-in-out;
-  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+.media > h5 > a {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 800;
 }
 
-.humberger-btn__burger::before,
-.humberger-btn__burger::after {
-  content: "";
-  position: absolute;
-  background-color: #fff;
-  opacity: 0.7;
-  height: 2px;
-  width: 20px;
-  border-radius: 10px;
-  transition: all 0.5s ease-in-out;
-  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+footer a:hover {
+  color: var(--black);
+  height: 3px;
 }
 
-.humberger-btn__burger::before {
-  transform: translateY(-7px);
+.media > h5 > a:hover {
+  color: #000;
+  text-decoration: underline #f72210;
 }
 
-.humberger-btn__burger::after {
-  transform: translateY(7px);
+.more-stories > h3,
+.debate > h3,
+.opinion > h3 {
+  color: #03003066;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 700;
 }
 
-.humberger-btn.open .humberger-btn__burger {
-  transform: translateX(-50px);
-  background: transparent;
-  box-shadow: none;
+.media > p {
+  color: #333;
+  font-size: 15px;
+  font-weight: 300;
 }
 
-.humberger-btn.open .humberger-btn__burger::before {
-  transform: rotate(45deg) translate(35px, -35px);
+/* Debate section */
+
+.img-debate {
+  width: 70px;
+  height: 70px;
+  float: left;
 }
 
-.humberger-btn.open .humberger-btn__burger::after {
-  transform: rotate(-45deg) translate(35px, 35px);
+.debate > h3 {
+  border-bottom: 5px solid #d0cfd4;
 }
 
-@media (min-width: 500px) {
-  .humberger-btn__burger {
-    height: 3px;
-    width: 25px;
+.media > span {
+  color: #555;
+  font-size: 14px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.media.bottom {
+  border-bottom: 5px solid #d0cfd4;
+}
+
+.round-dark {
+  background-color: #000;
+  color: #d6d6d6;
+  padding: 5px;
+  border-radius: 100px;
+}
+
+.img-debate.right {
+  float: right;
+}
+
+.sponsored {
+  width: 300px;
+}
+
+.second-form {
+  background-color: #f4f5f6;
+  border: 1px solid #eee;
+}
+
+.label {
+  font-size: 19px;
+  color: #000;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+.parler-border {
+  border-bottom: 5px solid #d0cfd4;
+  padding-bottom: 2rem;
+}
+
+.parler-border:nth-child(2) {
+  position: relative;
+  top: 2rem;
+}
+
+.debate-font h4 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.vs-text {
+  height: 0.1rem;
+}
+
+.vs-text span {
+  position: relative;
+  bottom: 0.8rem;
+}
+
+/* Footer */
+
+.news-icons {
+  position: relative;
+  top: 35px;
+}
+
+.news-footer > div {
+  position: relative;
+  top: 25px;
+}
+
+.news-footer > div > img {
+  position: relative;
+  bottom: 25px;
+}
+
+.brand-footer {
+  width: 230px;
+  height: 50px;
+}
+
+.copyright {
+  font-size: 12px;
+  font-family: sans-serif;
+  color: #666;
+}
+
+.social-icons > a > i.fa {
+  margin-right: 20px;
+  font-size: 25px;
+  color: #555;
+  opacity: 0.9;
+}
+
+.social-icons > a > i.fa:hover {
+  color: blue;
+  opacity: 0.8;
+}
+
+/* Featured Stories */
+
+.featured-cards h5 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 24px;
+}
+
+.card-body {
+  padding: 0;
+  border: 0;
+  position: relative;
+  bottom: 1.5rem;
+}
+
+.card-photo-tag {
+  position: relative;
+  bottom: 1.6rem;
+  color: red;
+  font-weight: bold;
+}
+
+.my-turn-title {
+  position: relative;
+  top: 2rem;
+}
+
+.card-text {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.card-title:hover {
+  text-decoration: underline red;
+  color: inherit;
+}
+
+.card-photo-tag span {
+  background-color: white;
+  opacity: 0.9;
+  padding: 3px 10px;
+  font-size: 1.1rem;
+}
+
+/* In the magazine */
+
+.mamazing-brand {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
+
+.h2-header {
+  font-size: 19px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.feature {
+  background-color: #f72210;
+  color: white;
+  font-weight: bold;
+  border-radius: 1px;
+}
+
+.news {
+  font-weight: bold;
+  color: #f72210;
+}
+
+.h3-header {
+  font-size: 22px;
+  color: #f72210;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bolder;
+}
+
+.img-media.img-us {
+  height: 250px;
+  width: 250px;
+}
+
+.img-subscribe {
+  width: 180px;
+  height: 265px;
+}
+
+.img-absolute {
+  top: 20px;
+  left: 95px;
+}
+
+.subscribe-p {
+  margin: 0 0 0 120px;
+}
+
+.sub-button {
+  background-color: red;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  padding: 10px 20px;
+}
+
+.sub-button.nex {
+  width: 50%;
+  font-size: 15px;
+  padding: 3px;
+}
+
+.last-input {
+  float: left;
+  width: 50%;
+}
+
+.h4-subscribe {
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bolder;
+}
+
+@media (min-width: 768px) {
+  .last-nav a {
+    border-right: 1px solid #eee;
   }
 
-  .humberger-btn__burger::before,
-  .humberger-btn__burger::after {
-    height: 3px;
-    width: 25px;
+  .mobile-right > h2 > a {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 900;
   }
 
-  .humberger-btn__burger::before {
-    transform: translateY(-8px);
+  .btn-warning {
+    font-size: 18px;
   }
 
-  .humberger-btn__burger::after {
-    transform: translateY(8px);
+  .humberger.fa-bars {
+    font-size: 30px;
+  }
+
+  .header-form {
+    width: 100px;
+  }
+
+  .copyright {
+    height: 10px;
+    position: relative;
+    left: 5px;
+    top: 25px;
+  }
+
+  .img-media.img-us {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .top-nav {
+    height: 120px;
+  }
+
+  header.row {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  .brand {
+    width: 396px;
+  }
+
+  .top-nav > h3 {
+    color: #fff;
+    opacity: 0.7;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .mobile-right {
+    margin-bottom: 20px;
+  }
+
+  .nav-2 {
+    height: 50px;
+    padding: 10px 0 10px 0;
+    background-color: #fff;
+    flex-flow: row wrap;
+    text-align: center;
+  }
+
+  .nav-2 > h4 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 19px;
+    font-weight: 900;
+    color: #000;
+  }
+
+  .nav-3 > h4 > a {
+    color: #807f84;
+    font-size: 17px;
+  }
+
+  .nav-2 > h4 > a:hover {
+    color: red;
+    opacity: 0.8;
+  }
+
+  .search > h6 {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .fa-search {
+    top: 5px;
+    left: 80px;
+    color: #555;
+    opacity: 0.7;
+  }
+
+  .last-nav > a > span {
+    font-size: 15px;
+  }
+
+  main {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  footer {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  .img-media.img-us {
+    height: 100px;
+    width: 100px;
+  }
+
+  .sub-button.nex {
+    width: 100%;
+  }
+
+  .last-input {
+    width: 100%;
+  }
+
+  .lg-seven {
+    width: 65%;
+    margin-right: 20px;
+  }
+
+  .free {
+    font-size: 15px;
+  }
+
+  .lg-three {
+    width: 35%;
+  }
+
+  .starting-5 {
+    height: 365px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .free {
+    font-size: 19px;
   }
 }
