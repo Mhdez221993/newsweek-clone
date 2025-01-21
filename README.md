@@ -1,10 +1,8 @@
 # Newsweek Clone
 
-> This is a clone of an archived homepage of the Newsweek from 20 January, 2021
-> The initial build of this project contains the header and the footer sections
-> The main goal of this project is to learn how to use the Bootstrap framework, specifically its responsive design features
+This project entails replicating the Newsweek homepage as it appeared on January 20, 2021, with the primary objective of mastering the Bootstrap framework's responsive design capabilities. By reconstructing a real-world, content-rich website, the project offers practical experience in implementing Bootstrap's grid system, navigation components, and utility classes to achieve a responsive and visually consistent layout across various devices.
 
-![screenshot](img/project-srcn-shot.jpg)
+![screenshot](img/project-screenshot.png)
 
 ## Built With
 
@@ -27,14 +25,13 @@
 👤 **Moises Hernandez**
 
 - [GitHub](https://github.com/Mhdez221993)
-- [Twitter](https://twitter.com/MoisesH42060050)
-- [LinkedIn](https://www.linkedin.com/in/moises-hernandez-9bbb17145/)
+- [LinkedIn](https://www.linkedin.com/in/moises-hdez-coronado/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Mhdez221993/newsweek-clone/issues)
 
 ## Show your support
 
